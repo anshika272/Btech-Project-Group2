@@ -1,0 +1,22 @@
+.navbar{
+    margin-top: 0%;
+    background-color: #DCCABE;
+    height: 70px;
+}
+.user-image{
+    height: 40px;
+}
+
+.navitems{
+    margin-left: 650px;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.dropdown{
+    top:10px;
+}
+
+.navbar-brand{
+    font-weight:1000;
+}
