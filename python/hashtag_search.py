@@ -66,7 +66,7 @@ def getRecentlySearchedHashtags( params ) :
 try : # try and get param from command line
 	hashtag = sys.argv[1] # hashtag to get info on
 except : # default to coding hashtag
-	hashtag = 'coding' # hashtag to get info on
+	hashtag = 'banquethall' # hashtag to get info on
 
 params = getCreds() # params for api call
 params['hashtag_name'] = hashtag # add on the hashtag we want to search for
