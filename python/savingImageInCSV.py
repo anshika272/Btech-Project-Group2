@@ -17,7 +17,6 @@ def getHashtagInfo( params ) :
 	endpointParams = dict() # parameter to send to the endpoint
 	endpointParams['user_id'] = params['instagram_account_id'] # user id making request
 	endpointParams['q'] = params['hashtag_name'] # hashtag name
-	endpointParams['after'] = [50]
 	endpointParams['fields'] = 'id,name' # fields to get back
 	endpointParams['access_token'] = params['access_token'] # access token
 
